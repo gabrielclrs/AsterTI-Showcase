@@ -1,0 +1,42 @@
+# Artefatos do sistema operacional e de editores
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+
+# Arquivos temporários e logs
+*.log
+*.cache
+
+# Segredos e configurações de ambiente
+.env
+.env.*
+*.key
+*.pem
+
+# Bancos e dados operacionais
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+logs/
+
+# Código-fonte e configurações de desenvolvimento não pertencem ao showcase
+*.py
+*.js
+*.html
+*.css
+*.sql
+requirements.txt
+package.json
+package-lock.json
+playwright.config.js
+core/
+modules/
+migrations/
+scripts/
+static/
+templates/
+tests/
+utils/
