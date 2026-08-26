@@ -71,6 +71,15 @@
 - alertas de pendências;
 - atualização parcial das visualizações.
 
+## Aster Estoque
+
+- cadastro e consulta de material de consumo por almoxarifado;
+- alertas de reposição, saldo baixo e itens sem movimentação;
+- entradas e saídas com origem, destino e responsável;
+- remessa: envio ou recebimento de um lote de ativos e/ou material entre
+  unidades numa única operação, com numeração e documento próprios;
+- módulo opcional por instalação, integrado ao restante do sistema.
+
 ## Exportações
 
 - geração de documentos e dados para usuários autorizados;
@@ -79,5 +88,6 @@
 
 ## Não apresentado como funcionalidade atual
 
-Compatibilidade operacional com PostgreSQL e presets persistentes de análise
-permanecem pendentes. Não são apresentados como recursos disponíveis.
+Presets persistentes de análise e uma central de análise operacional
+configurável pelo próprio usuário permanecem pendentes. Não são apresentados
+como recursos disponíveis.

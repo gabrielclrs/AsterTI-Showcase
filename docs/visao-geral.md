@@ -32,9 +32,10 @@ realizadas. O AsterTI conecta essas informações ao ciclo operacional do ativo.
 
 ## Estado
 
-A versão 1.01 é a versão pública mais recente confirmada na documentação do
-projeto privado. Os módulos centrais estão consolidados e o produto segue em
-evolução arquitetural controlada.
+A versão 1.72 é a versão pública mais recente confirmada na documentação do
+projeto privado. Os módulos centrais estão consolidados, o Aster Estoque
+integra-se ao produto como módulo real e opcional, e o sistema segue em
+evolução funcional controlada.
 
 ## Limites desta apresentação
 

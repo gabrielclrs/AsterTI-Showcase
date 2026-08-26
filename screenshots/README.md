@@ -22,6 +22,7 @@ As imagens desta pasta apresentam o AsterTI em funcionamento.
 | `04-chamados.png` | Workspace de suporte técnico. |
 | `05-movimentacoes.png` | Linha do tempo de movimentações. |
 | `06-analise-operacional.png` | Indicadores e tendências operacionais. |
+| `07-estoque.png` | Tabela de material do Aster Estoque, por almoxarifado. |
 
 As imagens demonstram a interface e não expõem código-fonte ou detalhes
 internos de implementação.

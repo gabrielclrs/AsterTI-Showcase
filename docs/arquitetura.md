@@ -14,8 +14,10 @@ em quatro responsabilidades:
 ## Organização por domínio
 
 Os workspaces são separados por finalidade — inventário, suporte,
-movimentações, estrutura, usuários, histórico e análise — mas compartilham
-identidade, navegação, controle de acesso e contexto organizacional.
+movimentações, estoque, estrutura, usuários, histórico e análise — mas
+compartilham identidade, navegação, controle de acesso e contexto
+organizacional. O Aster Estoque é um módulo próprio, opcional por instalação,
+sobre o mesmo núcleo compartilhado.
 
 ## Fluxo conceitual
 
@@ -26,15 +28,18 @@ consolidadas.
 
 ## Dados e arquivos
 
-A versão atual utiliza persistência relacional em SQLite. Documentos e imagens
+A persistência relacional aceita SQLite, usado em desenvolvimento, ou
+PostgreSQL, validado e aprovado para uso em produção. Documentos e imagens
 associados ao sistema são tratados como recursos protegidos e seguem as mesmas
 restrições de acesso do registro relacionado.
 
 ## Evolução arquitetural
 
-A versão 1.01 iniciou a separação progressiva de um núcleo compartilhado para o
-ecossistema Aster. A fronteira ainda está em evolução e partes adicionais
-dependem de decisões registradas no projeto privado.
+A separação de um núcleo compartilhado para o ecossistema Aster, iniciada na
+versão 1.01, está concluída: o núcleo hoje sustenta dois módulos reais e
+independentes, o AsterTI e o Aster Estoque, este último opcional por
+instalação. Extensões adicionais desse núcleo dependem de decisões
+registradas no projeto privado.
 
 ## O que foi omitido
 

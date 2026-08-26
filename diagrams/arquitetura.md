@@ -8,8 +8,8 @@
 
 **Interface web**
 
-Workspaces de dashboard, inventário, suporte, movimentações, estrutura,
-usuários, histórico e análise.
+Workspaces de dashboard, inventário, suporte, movimentações, estoque,
+estrutura, usuários, histórico e análise.
 
 ↓
 
@@ -21,8 +21,9 @@ Casos de uso, validações e coordenação dos fluxos operacionais.
 
 **Núcleo modular do ecossistema Aster**
 
-Contratos compartilhados em separação progressiva, com os domínios do AsterTI
-preservando suas responsabilidades específicas.
+Contratos compartilhados, sustentando o AsterTI e o Aster Estoque como
+módulos reais e independentes, cada um preservando suas responsabilidades
+específicas.
 
 ↓
 
@@ -32,7 +33,7 @@ Autenticação, sessão, perfis, escopo, proteção de recursos e auditoria.
 
 ↓
 
-**Persistência atual em SQLite**
+**Persistência em SQLite ou PostgreSQL**
 
 Dados relacionais, histórico e referências protegidas a documentos.
 
@@ -41,6 +42,7 @@ Dados relacionais, histórico e referências protegidas a documentos.
 | Origem | Relação | Destino |
 |---|---|---|
 | Inventário | fornece contexto | Movimentações e chamados |
+| Aster Estoque | fornece material | Remessas de envio e recebimento |
 | Estrutura institucional | delimita | Localização, responsabilidade e escopo |
 | Usuários e perfis | condicionam | Ações e visualizações permitidas |
 | Operações | geram | Histórico, notificações e indicadores |

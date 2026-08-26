@@ -3,6 +3,73 @@
 Este histórico resume marcos confirmados no projeto privado sem reproduzir
 detalhes de implementação.
 
+## 1.72 — 26/08/2026
+
+- entregue o módulo de Remessa: envio e recebimento de um lote de ativos
+  e/ou material entre unidades numa única operação, com numeração e
+  documento formal próprios;
+- corrigida uma inconsistência de posse em que um ativo marcado como
+  disponível para reserva podia manter um responsável vinculado;
+- consolidado o registro de auditoria de uma remessa em um único evento,
+  em vez de um evento por ativo movimentado;
+- aprimorada a seleção automática de almoxarifado por unidade de
+  visualização e a ordenação da tela de entradas e saídas.
+
+## 1.71 — 24/08/2026
+
+- corrigida uma falha que impedia a geração de documentos formais
+  (movimentação, termo de posse, devolução, envio para manutenção);
+- reorganizados os quatro documentos formais, com papéis mais claros
+  entre movimentação e devolução;
+- entregue o primeiro conjunto de exportações e métricas do Aster
+  Estoque por modelo de ativo;
+- corrigida uma condição de corrida na renovação de sessão.
+
+## 1.70 — 22/08/2026
+
+- entregue uma linha do tempo consolidada do histórico de cada ativo;
+- unificados os catálogos de defeito técnico do Suporte Técnico;
+- reformulado o cadastro de item de estoque em duas etapas;
+- diversas correções pontuais de movimentações, cadastros e interface.
+
+## 1.60 a 1.66 — 18 a 19/08/2026
+
+- reestruturado o workspace de chamado técnico em ficha de consulta e
+  acompanhamento de ação;
+- ampliado o povoamento de demonstração do Aster Estoque;
+- revisados desempenho de interface, mascaramento de dado sensível e
+  índices de performance do histórico de ações;
+- padronizado o comprimento mínimo de justificativa em ações sensíveis.
+
+## 1.55 a 1.57 — 13 a 17/08/2026
+
+- o Aster Estoque passou a compartilhar a mesma camada de persistência e
+  o mesmo motor de permissões do núcleo compartilhado;
+- entregue a primeira integração funcional entre Inventário e Aster
+  Estoque — naturezas operacionais, componentes reutilizáveis e
+  previsão de troca de suprimento;
+- redesenhado o fluxo de movimentação de ativo em tela única.
+
+## 1.35 a 1.50 — 10 a 12/08/2026
+
+- o Aster Estoque passou a ser um módulo real e opcional da plataforma,
+  habilitável por instalação;
+- entregues o papel de Administrador da Plataforma e o painel de
+  gerenciamento de módulos;
+- ampliado o suporte a múltiplos almoxarifados.
+
+## 1.10 a 1.20 — 03 a 07/08/2026
+
+- concluída a separação arquitetural entre o núcleo compartilhado do
+  ecossistema Aster e o produto AsterTI;
+- validada a compatibilidade com PostgreSQL como persistência
+  alternativa ao SQLite.
+
+## 1.02 a 1.09 — agosto de 2026
+
+- consolidada a fronteira entre o núcleo compartilhado e as regras
+  próprias do AsterTI, sem alteração perceptível de funcionalidade.
+
 ## 1.01 — 29/07/2026
 
 - criada a primeira fronteira do núcleo compartilhado do ecossistema Aster;

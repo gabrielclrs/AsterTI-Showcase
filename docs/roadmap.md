@@ -9,30 +9,32 @@ prioridade, escopo e data dependem de validação do responsável.
 
 ### Núcleo compartilhado do ecossistema Aster
 
-A primeira fronteira foi entregue na versão 1.01. A continuidade da separação
-depende de decisões sobre responsabilidades entre o núcleo e o produto AsterTI.
+A fronteira iniciada na versão 1.01 está concluída: o núcleo sustenta hoje o
+AsterTI e o Aster Estoque como módulos reais e independentes. A frente segue
+aberta para eventuais módulos adicionais.
 
-### Histórico e exportações
+### Chamados como capacidade compartilhada
 
-O desacoplamento adicional desses domínios permanece como frente futura da
-evolução arquitetural.
+Avalia-se promover o domínio de chamados técnicos, hoje exclusivo do AsterTI,
+a uma capacidade compartilhada entre módulos — incluindo um futuro módulo de
+atendimento.
 
 ### Análise Operacional
 
-- validar a métrica principal de conformidade;
-- reavaliar presets persistentes, adiados na versão 1.01;
+- avaliar uma central de indicadores configurável pelo próprio usuário;
+- reavaliar presets persistentes, adiados desde a versão 1.01;
 - continuar refinamentos orientados por uso real.
 
 ### Persistência
 
-A compatibilidade com PostgreSQL foi analisada, mas a implementação não está
-autorizada. A versão atual permanece em SQLite.
+A compatibilidade com PostgreSQL foi validada e está aprovada para uso em
+produção. SQLite permanece a persistência padrão de desenvolvimento.
 
 ## Pendentes de validação
 
-- ordem das frentes posteriores à versão 1.01;
-- critérios de adoção de uma persistência alternativa;
-- escopo definitivo dos presets;
+- escopo definitivo da capacidade compartilhada de chamados;
+- escopo definitivo dos presets de análise;
+- retomada da recepção de dados de fonte institucional externa;
 - metas e datas de futuras versões.
 
 ## Itens não assumidos
