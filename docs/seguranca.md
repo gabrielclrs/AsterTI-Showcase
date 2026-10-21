@@ -17,7 +17,12 @@ escopo organizacional, recurso solicitado e registro de eventos.
 - sessão com configurações reforçadas para produção;
 - trilha de auditoria para eventos relevantes;
 - redefinição de senha com fluxo controlado;
-- bloqueio de contas e credenciais de demonstração no ambiente produtivo.
+- bloqueio de contas e credenciais de demonstração no ambiente produtivo;
+- aviso de privacidade e proteção de dados (LGPD) na tela de acesso;
+- política de retenção e anonimização de dados pessoais e de acesso;
+- minimização de dados: CPF e data de nascimento não são coletados;
+- cópias de segurança com acesso restrito;
+- procedimento de resposta a incidentes.
 
 ## Perfis
 
